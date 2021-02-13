@@ -40,14 +40,17 @@ input[type=button] {
 }
 
 .results {
-    box-sizing: content-box;
+    box-sizing: 10px;
     padding: 5rem;
     color: black;
+    padding-left: 45%;
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
 }
 
-.container  p{
-    font-size: 1rem;
+.random{
+    font-size: 2rem;
+    padding: 0px;
 }
+

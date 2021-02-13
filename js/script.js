@@ -17,7 +17,7 @@ function generate(list_of_words) {
 function listNumerically(arr) {
     var list = "";
     for (i = 0; i < arr.length; i++) {
-        list += ((i + 1) + ".\t\t\n\t\t\t\t\t"   +arr[i] + '<br>')
+        list += ((i + 1) + "." +arr[i] + '<br>')
     }
     return list;
 };
