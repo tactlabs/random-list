@@ -1,5 +1,5 @@
 function generate(list_of_words) {
-    array_of_names = list_of_words.split(" ");
+    array_of_names = list_of_words.split("\n");
   
     if (array_of_names.length <= 1) {
       throw new Error("Cannot use a list containing fewer than two names");
